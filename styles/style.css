@@ -1,0 +1,150 @@
+.navbar {
+    background: #1d1e1f;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-family: 'DM Mono', monospace;
+    color: #fff;
+    margin: 0 10px 0;
+    font-weight: 300;
+}
+
+span {
+    font-family: 'DM Mono', monospace;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+#logo {
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 3px solid #3f2a14;
+}
+
+.content {
+    background: url(../img/background.jpg);
+    width: 1903px;
+    height: 1200px;
+    background-size: cover;
+}
+
+
+/*.wrapper {
+    margin: auto;
+    width: 70%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+}*/
+
+.headingText {
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    height: 50px;
+    background: black;
+}
+
+footer p {
+    color: #999;
+    line-height: 25px;
+}
+
+footer .h2 .h3 {
+    color: #fff;
+}
+
+footer .h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 80px 0;
+}
+
+.segment-one h3 {
+    font-family: monospace;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-two h2 {
+    color: #fff;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.segment-two h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    color: #fff;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.segment-three h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: #999;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    color: #fff;
+    font-family: monospace;
+}
+
+.segment-four h2::before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-four form input[type=submit] {
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    color: #fff;
+    margin-top: 5px;
+    text-transform: uppercase;
+    ;
+}
